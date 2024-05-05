@@ -1,8 +1,13 @@
-# React + Vite
+# Vottun Get Owner Test (REACT)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Introducimos los datos del NFT (contrato, network e id)
 
-Currently, two official plugins are available:
+![Paso1](https://i.postimg.cc/TYqHcPWx/paso1.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Recibimos el NFT y solicitamos el Owner
+
+![Paso2](https://i.postimg.cc/Z5bsshrd/paso2.png)
+
+- Recibimos el owner
+
+![Paso3](https://i.postimg.cc/t4BSLm5m/paso3.png)
