@@ -1,0 +1,148 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.button {
+  width: 100%;
+  margin-top: 1rem;
+  background-color: #10cd9e;
+  color: #f9f9f9;
+}
+
+.button:hover {
+  background-color: #0b9d7d;
+}
+
+
+form {
+  box-shadow: 0 2px 4px rgba(20, 19, 19, 0.1);
+  min-width: 350px;
+  background-color: #2c2c2c;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 2rem;
+}
+
+label {
+  text-align: left;
+  width: 100%;
+  font-size: 1em;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+input {
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #10cd9e;
+  background-color: #2c2c2c;
+  color: #f9f9f9;
+}
+
+.card-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: #10cd9e 2px solid;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(178, 146, 146, 0.1);
+  padding: 2em;
+  background-color: #2c2c2c;
+  color: #f9f9f9;
+}
+
+.card h2 {
+  font-size: 1.6em;
+  margin-bottom: 0.5em;
+  color: #10cd9e;
+}
+
+.card img {
+  border-radius: 15px;
+  width: 150px;
+
+}
